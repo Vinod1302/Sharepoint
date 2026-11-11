@@ -1,0 +1,29 @@
+3. Where does SharePoint Online come from?
+    This is important:
+    SharePoint Online is a service within Microsoft 365.
+    For example, an organization may purchase a Microsoft 365 plan that includes:
+    
+        Outlook
+        Teams
+        OneDrive
+        SharePoint
+        Word
+        Excel
+        PowerPoint
+        etc.
+
+4. Licensing: do users need licenses?
+    
+    Generally, organizations license users through an eligible Microsoft 365 / Office 365 plan that includes SharePoint,
+    or through a standalone SharePoint Online plan.
+    So conceptually:
+    Company buys Microsoft 365 licenses
+    ↓
+    Users are assigned licenses
+    ↓
+    User gets access to services included in that license
+    ↓
+    SharePoint Online
+    You don't normally buy a separate license every time you create a SharePoint site.
+    For example, if a company has an eligible Microsoft 365 subscription, it can create many SharePoint sites within 
+    tenant/service limits.
