@@ -1,0 +1,11 @@
+2. SharePoint Online vs SharePoint Server
+
+There are two concepts you may hear:
+SharePoint Online:
+    Microsoft hosts it in Microsoft's cloud.
+    Your company doesn't maintain the SharePoint servers.
+    This is what you should primarily focus on.
+
+SharePoint Server:
+    The organization hosts/manages SharePoint infrastructure itself.
+    For a modern SharePoint Online Developer role, concentrate on SharePoint Online.
