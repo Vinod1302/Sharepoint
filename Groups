@@ -1,0 +1,8 @@
+Group:
+ if we are specifically talking about a SharePoint Group, think of it as belonging to that particular site/site collection.
+
+  For example:
+  
+  Budget Approval Site
+      Budget Approvers group
+      Budget Viewers group
