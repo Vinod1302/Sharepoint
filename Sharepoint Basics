@@ -16,10 +16,10 @@
 """"SharePoint is primarily used by people in the organization, but external people can also be given access if external sharing is enabled."""
 
 Main Components:
-Concept                   What it means
+Concept                       What it means
 Site                      Workspace/container
 List                    Structured business data
-List                     ItemOne record in a list
+ListItem                    One record in a list
 Columns                    Fields of a list
 Document             LibraryStores documents/files
 Folder                    Organizes files
