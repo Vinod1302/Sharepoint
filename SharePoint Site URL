@@ -1,0 +1,26 @@
+SharePoint Site URL:
+    Every SharePoint site has its own URL/address.
+    Example:
+        https://contoso.sharepoint.com/sites/BudgetApproval
+    
+    Break it down:
+        https:// → protocol
+        contoso → organization's Microsoft 365/SharePoint tenant name
+        sharepoint.com → SharePoint Online domain
+        /sites/ → common managed path for sites
+        BudgetApproval → particular site's URL name
+    
+    So:
+        Tenant → contoso.sharepoint.com
+        Site → /sites/BudgetApproval
+    
+    Full URL:
+    https://contoso.sharepoint.com/sites/BudgetApproval
+    
+    Multiple sites
+        A company could have:
+        /sites/Finance
+        /sites/HR
+        /sites/BudgetApproval
+        /sites/ITSupport
+    Each represents a different SharePoint site.
