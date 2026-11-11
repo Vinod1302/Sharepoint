@@ -5,3 +5,25 @@ A SharePoint Site is a workspace/container where a group of users can organize, 
 Types of sites:
     Team Site
     Communication Site
+
+        1. Team Site:
+        A Team Site is designed for a group of people who work together and actively create/edit content.
+        
+        For example, imagine your Budget Approval project team.
+        You create:
+        Budget Approval Team Site
+        Your team can:
+                Create/edit documents
+                Maintain SharePoint Lists
+                Add/update list items
+                Upload files
+                Work on the same documents
+                Create pages
+                Collaborate on project information
+        Simple scenario:
+            You have 10 developers working on a project.
+            All 10 need to:
+                    Create + Edit + Update + Collaborate
+                    Use a Team Site.
+            Easy memory
+                    Team Site = We work together.
