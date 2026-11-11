@@ -27,3 +27,17 @@
     You don't normally buy a separate license every time you create a SharePoint site.
     For example, if a company has an eligible Microsoft 365 subscription, it can create many SharePoint sites within 
     tenant/service limits.
+
+
+5. What about billing?
+Think about two separate things:
+License cost:
+        Primarily the subscription/license cost assigned to the organization/users.
+        Microsoft's pricing varies based on the plan and region, so you shouldn't memorize one number for an interview. Microsoft's 
+        current Singapore pricing page shows multiple Microsoft 365 plan options that include SharePoint. Microsoft 365 SharePoint pricing
+
+Storage:
+        The organization also has a SharePoint storage pool.
+        Microsoft currently documents the common allocation for many Microsoft 365 plans as:
+        1 TB base + 10 GB per eligible purchased license
+    Microsoft says additional SharePoint storage can also be purchased if needed
