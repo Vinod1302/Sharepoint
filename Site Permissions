@@ -2,3 +2,23 @@ They are:
     Owners → usually Full Control
     Members → usually Edit
     Visitors → usually Read
+
+What can they generally do?
+
+Owner:
+        Manage permissions
+        Add/remove users
+        Change site settings
+        Create/manage lists and libraries
+        Manage content
+
+Member:
+        Create/edit content
+        Add/update list items
+        Upload/edit documents
+
+Visitor:
+        Open the site
+        View pages
+        Read list information
+        View documents
