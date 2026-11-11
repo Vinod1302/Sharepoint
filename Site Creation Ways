@@ -1,3 +1,15 @@
+Method 1: User creates a site from SharePoint
+
+          In Microsoft 365:
+          SharePoint → Create site
+          Then choose:
+                              Team site
+                              Communication site
+          Suppose we select Team site.
+          SharePoint then creates the site.
+                              The URL might look like:
+                              https://companyname.sharepoint.com/sites/BudgetApproval
+
 Method 2: Administrator creates it
 
           A SharePoint/Microsoft 365 administrator can also create and manage sites through the SharePoint Admin Center.
