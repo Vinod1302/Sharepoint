@@ -1,0 +1,23 @@
+you can create multiple Views for a SharePoint List or Document Library.
+
+But the important point is:
+A View is not a security boundary. You generally don't give permissions to individual Views.
+For example, suppose:
+Employee List
+    All Employees View
+    HR View
+    Finance View
+Even if the HR View filters and shows salary-related columns, simply hiding that view from certain users
+is not proper security. If users have permission to the underlying List/items, you should assume the View itself 
+cannot be relied on to protect the data.
+
+1)Where should security be applied?
+Apply permissions to the actual content:
+Site → List/Library → Folder → Item/File
+
+For example, if salary information is truly confidential, use:
+
+    A separate secured List/Library, or
+    Appropriate item-level permissions / permission inheritance
+
+rather than relying on a filtered View.
