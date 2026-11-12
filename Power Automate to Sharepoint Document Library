@@ -1,0 +1,10 @@
+Requirement                     Power Automate                      Typical approach
+Create/upload file                 ✅                            SharePoint connector
+Move/copy/delete file              ✅                           SharePoint connector
+Update metadata/columns            ✅                            SharePoint connector
+Approval process                   ✅                           Approvals + SharePoint
+Grant/remove item/file access      ✅                        Connector actions and/or REST
+Break permission inheritance       ✅                          SharePoint REST via HTTP
+Assign unique permissions          ✅                          SharePoint REST via HTTP
+Check-out / Check-in               ✅                          API approach where required
+Work with versions                 ✅                            /dependsSharePoint APIs
