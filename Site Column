@@ -1,0 +1,19 @@
+What is a Site Column?
+x
+A Site Column is a reusable column created at the SharePoint Site level, so you can reuse the same field in multiple Lists, 
+Libraries, and Content Types.
+
+Example: create these once:
+    Department
+    Customer
+    Contract Number
+    Start Date
+    Status
+Then reuse:
+Site Column: Department
+→ Contract Content Type
+ → Invoice Content Type
+ → Budget Request Content Type
+ → Employee List
+
+Instead of creating a new Department column separately everywhere.
