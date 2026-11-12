@@ -10,3 +10,15 @@ Then you create additional pages:
     Contact Us
 
 So you might end up with 6 pages.
+
+1)How do you create another page?
+Typically:
+
+    SharePoint Site → New → Page
+    Then:
+            Choose a page/template
+            Give it a name
+            Add sections
+            Add Web Parts
+            Publish the page
+    The pages are stored in the site's Site Pages library.
