@@ -50,3 +50,6 @@ Create Site Columns
 
 This actually leads perfectly into the next topic: Site Columns, because Contract Number, Customer, etc. can be reusable Site Columns
 rather than recreating the same fields separately in every library.
+
+Content Type defines which fields belong to that type of content. Each field can then be Required (mandatory),
+Optional, or sometimes Hidden.
