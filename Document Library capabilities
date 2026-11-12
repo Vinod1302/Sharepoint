@@ -34,3 +34,28 @@
         A document can be checked out while someone is working on it.
         Check-in puts the updated document back into the controlled library process. Plan document versioning, content approval,
         and check-out controls in SharePoint
+            1)Check-out:
+                    Suppose this file is in a SharePoint Document Library:
+                    BudgetApproval.docx
+                    Normally, multiple people may be able to edit Office documents together.
+                    But imagine you want:
+                    "I am making an important change. I don't want anyone else editing this document until I finish."
+                    
+                    You Check out the file.
+                    Once checked out:
+                    
+                            The file stays in the library.
+                            It is marked as checked out to you.
+                            You get exclusive editing rights.
+                            Other users cannot edit it until you check it back in
+                2)Check in:
+                        Once Vinod finishes, he selects:
+                        ... → Check in
+                        He can also enter a comment such as:
+                        "Updated maximum budget from $10,000 to $15,000."
+                        
+                        After check-in:
+                        🔓 The document is available again for other users with appropriate permissions to edit.
+                        
+                        So:
+                        Check out → Edit → Save → Check in
