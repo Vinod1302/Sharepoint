@@ -1,2 +1,9 @@
 The simplest mental model is:
     SharePoint List ≈ Dataverse Table
+
+In SharePoint, the main object is simply a List. You can create it in different ways:
+        Blank list → build your own columns, similar to creating a Dataverse custom table.
+        From a template → for scenarios like issue tracking, work progress, etc.
+        From an existing list → copy the structure.
+        From Excel/CSV → create a list based on existing tabular data.
+But these don't become fundamentally different table types like Activity Table vs Standard Table in Dataverse.
