@@ -36,3 +36,27 @@ Confidential Budget Documents Library and only Finance Managers should access it
       Remove the inherited groups/users as appropriate
       Add Finance Managers
       Give them the required permission, such as Edit/Read
+
+
+Files:
+
+Individual files can also have separate permissions.
+By default, permissions flow like this:
+Site → Document Library → Folder → File
+So if nothing is changed, the file inherits permissions from its parent folder/library.
+
+Example
+
+   Budget Documents Library → Members have Edit
+    → FY2026 Folder → inherits Edit
+    → BudgetRequest.docx → inherits Edit
+But suppose SalaryDetails.xlsx is confidential.
+You can give that particular file unique permissions, for example:
+
+   Finance Manager → Edit
+   HR Manager → Read
+   Other site members → No access
+This requires breaking/changing the inherited permissions for that file. SharePoint supports unique permissions at the individual document level.
+
+So remember
+Site, Library, Folder, and even individual File can have permissions.
