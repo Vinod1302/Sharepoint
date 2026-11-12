@@ -1,2 +1,11 @@
 What is a Document Library?
    A Document Library is a container inside a SharePoint Site specifically designed to store and manage files.
+
+A library can contain files such as:
+      Word
+      Excel
+      PowerPoint
+      PDF
+      Images
+      Text files
+      Other supported business files
