@@ -60,7 +60,19 @@
                         So:
                         Check out → Edit → Save → Check in
 6)Content approval
-Documents can require approval before they are treated as approved/published content.
+        Documents can require approval before they are treated as approved/published content.
+        Think of Content Approval as a gate before a document becomes an official/approved document in the library.
+        Simple example
+        Suppose your Document Library is:
+        
+            Budget Documents
+                Vinod uploads:
+                    BudgetPolicy.docx
+        
+            If Content Approval is enabled, the document doesn't immediately become an approved document.
+            The flow is:
+                Upload document → Pending → Approver reviews → Approved or Rejected
+        Require approval of items in a list or library.
 
 7)Automation
         You can use Power Automate for scenarios such as:
