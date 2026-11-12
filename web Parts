@@ -1,0 +1,36 @@
+next is Web Parts. We just finished the Page concept.
+
+Remember the relationship:
+
+Site → Page → Web Parts
+
+What is a Web Part?
+
+A Web Part is a reusable UI component that you place inside a SharePoint Page.
+
+For example, your Budget Approval Home Page could contain:
+
+Text Web Part → instructions
+List Web Part → displays Budget Requests
+Document Library Web Part → displays Budget Documents
+Quick Links Web Part → links/buttons
+People Web Part → project members
+News Web Part → announcements
+
+So:
+Page = screen/container
+Web Part = component placed on that screen
+Built-in vs Custom
+There are two important categories:
+    1. Built-in Web Parts
+     Microsoft already provides them. You configure them through the UI. No coding required.
+    
+    2. Custom Web Parts
+     If built-in components don't meet your requirement, a developer can create a custom one using SPFx, commonly with TypeScript/React.
+    
+  Example:
+
+      Custom Budget Dashboard Web Part
+       → calls SharePoint REST API
+       → reads Budget Requests List
+       → displays Pending / Approved / Rejected requests in your custom UI.
