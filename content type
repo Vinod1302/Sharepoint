@@ -1,0 +1,61 @@
+Where do we create a Content Type?
+At the SharePoint site level, you can manage reusable Site Content Types through the site's content type gallery/settings.
+Microsoft distinguishes these reusable Site Content Types from the copy used when you add one to a particular list or library.
+Use content types to manage content consistently on a site
+
+Conceptually:
+    SharePoint Site
+     → Site Content Types
+     → Create Contract Content Type
+
+Then you can add that Content Type to a:
+
+Document Library
+SharePoint List
+2. Do the columns need to exist first?
+
+For reusable design, yes, typically you create/reuse Site Columns and then associate those columns with the Content Type.
+
+Example:
+
+First define reusable columns:
+
+Contract Number
+Customer
+Start Date
+End Date
+Contract Value
+
+Then create:
+
+Content Type: Contract
+
+and associate those columns with it.
+
+Microsoft describes Content Types as reusable collections that can include metadata/columns, templates, workflows, and other settings. Introduction to content types and content type publishing
+
+Then:
+
+Contract Content Type
+ → Contract Number
+ → Customer
+ → Start Date
+ → End Date
+ → Contract Value
+
+Then add the Contract Content Type to:
+
+Legal Documents Library
+
+Now when that library uses the Contract Content Type, SharePoint knows which metadata belongs to a Contract. Use content types to manage content consistently on a site
+
+Keep this flow in your head
+
+Create Site Columns
+   → Create Content Type
+   → Add columns to Content Type
+   → Add Content Type to List/Document Library
+   → Create/upload items/documents using that Content Type
+
+This actually leads perfectly into the next topic: Site Columns, because Contract Number, Customer, etc. can be reusable Site Columns
+rather than recreating the same fields separately in every library.
