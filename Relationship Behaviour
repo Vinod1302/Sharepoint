@@ -1,0 +1,15 @@
+What happens if Department is deleted?
+
+SharePoint lookup relationships can enforce relationship behavior. Two important options are:
+
+  1)Restrict Delete:
+  
+  If Finance is being referenced by Budget Requests:
+      Don't allow Finance to be deleted.
+      This protects the relationship.
+  
+  2)Cascade Delete:
+  
+  If Finance is deleted:
+      Related target items can also be deleted.
+      SharePoint supports these relationship-delete behaviors for applicable Lookup relationships.
