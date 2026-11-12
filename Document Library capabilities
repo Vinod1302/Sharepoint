@@ -29,3 +29,8 @@
                         Version 3 → Finance updated
                         
                 If Version 3 is wrong, you can restore an earlier version.
+
+5)Check-out / Check-in
+        A document can be checked out while someone is working on it.
+        Check-in puts the updated document back into the controlled library process. Plan document versioning, content approval,
+        and check-out controls in SharePoint
