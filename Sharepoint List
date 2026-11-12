@@ -1,6 +1,13 @@
 The simplest mental model is:
     SharePoint List ≈ Dataverse Table
 
+In list we can again create 5 different things
+1)List
+2)Forms
+3)Gallery whihc is used to store images
+4)Calender which is used to store any events
+5)Board like a jira board.
+
 In SharePoint, the main object is simply a List. You can create it in different ways:
         Blank list → build your own columns, similar to creating a Dataverse custom table.
         From a template → for scenarios like issue tracking, work progress, etc.
