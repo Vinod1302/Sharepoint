@@ -1,0 +1,21 @@
+By default, you generally don't need to enable SharePoint Search manually.
+In SharePoint Online, most site, list, library, page, and column content is crawled and added to the search index by default. 
+Enable content on a site to be searchable
+
+So normally:
+    Upload/Create content
+     → SharePoint indexes it
+     → User searches
+     → Results appear according to permissions
+
+1)When would you configure Search?
+You may configure it when you want to:
+      Exclude a Site from search
+      Exclude a List/Library from search
+      Re-index a Site/List/Library
+      Configure advanced Search Schema
+      Work with Crawled Properties / Managed Properties
+      Customize how specific metadata is searchable
+
+SharePoint provides those search settings, but you don't configure them for normal everyday searching.
+Manage the search schema in SharePoint
