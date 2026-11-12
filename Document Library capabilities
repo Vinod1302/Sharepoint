@@ -1,9 +1,19 @@
 1)Store documents
-Word, Excel, PDF, PowerPoint, images, etc.
+    Word, Excel, PDF, PowerPoint, images, etc.
 
 2)Folders/subfolders
-Organize documents into folder structures.
+    Organize documents into folder structures.
 
 3)Metadata / Columns
-Add information about each document.
-Example: Department, Request Number, Status, Document Type.
+    Add information about each document.
+    Example: Department, Request Number, Status, Document Type.
+    Document Library ≈ Table
+    Each document ≈ Record
+    Metadata columns ≈ Table columns
+
+      ex:
+          For example, the actual PDF is the file, while:
+          Status = Approved
+          Department = Finance
+          Request Number = BR-001
+          are properties describing that file.
