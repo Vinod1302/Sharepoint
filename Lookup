@@ -1,0 +1,4 @@
+Relationship                SharePoint
+1:N / N:1                ✅ Lookup column
+N:N                  ⚠️ Multi-value Lookup or preferably a junction List for more complex solutions
+Self-referencing    ⚠️ Can be modeled, but more limited than DataverseDataverse-style relationship framework❌ No
