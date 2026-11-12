@@ -22,3 +22,6 @@ Typically:
             Add Web Parts
             Publish the page
     The pages are stored in the site's Site Pages library.
+
+Normal SharePoint Page = UI configuration, no code.
+Custom functionality/UI = SPFx development/code.
