@@ -9,3 +9,30 @@ A library can contain files such as:
       Images
       Text files
       Other supported business files
+
+When you create a Document Library, it normally inherits permissions from the SharePoint Site.
+
+   Example:
+   
+   Budget Approval Site
+   
+         Owners → Full Control
+         Members → Edit
+         Visitors → Read
+
+↓
+
+Budget Documents Library inherits those same permissions.
+So you don't need to configure security again.
+
+But you can give the library different permissions
+Suppose you create:
+Confidential Budget Documents Library and only Finance Managers should access it.
+   
+   You can:
+   
+      Go to Library permissions
+      Stop/Break permission inheritance
+      Remove the inherited groups/users as appropriate
+      Add Finance Managers
+      Give them the required permission, such as Edit/Read
