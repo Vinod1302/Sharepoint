@@ -59,3 +59,11 @@
                         
                         So:
                         Check out → Edit → Save → Check in
+6)Content approval
+Documents can require approval before they are treated as approved/published content.
+
+7)Automation
+        You can use Power Automate for scenarios such as:
+        File uploaded → start approval
+        File modified → notify manager
+        Approved → move/update file
