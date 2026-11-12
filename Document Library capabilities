@@ -17,3 +17,15 @@
           Department = Finance
           Request Number = BR-001
           are properties describing that file.
+
+4)Version History ⭐
+        SharePoint can keep previous versions when a document changes.
+        You can see who changed it, view older versions, and restore a previous version. How versioning works in lists and libraries
+        
+                Example:
+                        Budget.docx
+                        Version 1 → Vinod uploaded
+                        Version 2 → Manager modified
+                        Version 3 → Finance updated
+                        
+                If Version 3 is wrong, you can restore an earlier version.
