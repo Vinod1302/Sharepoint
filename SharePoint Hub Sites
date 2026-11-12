@@ -1,0 +1,17 @@
+A Hub Site connects multiple related SharePoint sites together so they feel like part of one larger organizational area. What is a SharePoint hub site?
+
+Simple example
+
+Imagine your company has:
+
+Finance Hub Site
+
+Connected sites:
+
+Budget Approval Site
+Accounts Payable Site
+Finance Policies Site
+Audit Site
+Expense Management Site
+
+These remain separate SharePoint sites, but the Hub connects them logically.
