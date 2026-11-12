@@ -73,6 +73,12 @@
             The flow is:
                 Upload document → Pending → Approver reviews → Approved or Rejected
         Require approval of items in a list or library.
+        Correct. Content Approval is configured at the individual List or Document Library level, not at the overall Site level.
+        For example:
+            Budget Approval Site
+                    Budget Documents Library → Content Approval = ON
+                    General Documents Library → Content Approval = OFF
+                    Budget Requests List → Content Approval = ON
 
 7)Automation
         You can use Power Automate for scenarios such as:
