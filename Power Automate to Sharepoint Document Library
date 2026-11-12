@@ -8,3 +8,9 @@ Break permission inheritance       ✅                          SharePoint REST 
 Assign unique permissions          ✅                          SharePoint REST via HTTP
 Check-out / Check-in               ✅                          API approach where required
 Work with versions                 ✅                            /dependsSharePoint APIs
+
+
+Yes. SharePoint Online supports webhooks.
+
+Think of it the same way as other event-driven integrations you’ve worked with:
+Something changes in SharePoint → SharePoint sends an HTTP POST notification to your endpoint. Overview of SharePoint webhooks
