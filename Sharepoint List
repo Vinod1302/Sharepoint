@@ -21,3 +21,36 @@ Lookup                                Department from another List
 Calculated                            Total = Quantity × Price
 Hyperlink                                Project URL    
 Managed Metadata                Organization-controlled terms/categories
+
+
+List Permissions:
+
+A SharePoint List can have its own permissions, just like a Document Library.
+Default behavior
+Normally:
+    Site Permissions
+     ↓ inherited
+     List Permissions
+     ↓ inherited
+     List Item Permissions
+
+So if Budget Requests inherits from the site, the same Owners/Members/Visitors access applies.
+If you need different security
+You can break permission inheritance on the List and assign different users/groups.
+
+Example:
+    Budget Approval Site → 50 users have access
+    
+    But:
+        Salary List
+         → Break inheritance
+         → HR Group → Edit
+         → Managers → Read
+         → Everyone else → No access
+And you can go even deeper:
+Site → List → Individual List Item
+An individual item can also have unique permissions.
+
+So remember:
+Site, List, Document Library, Folder, File, and List Item can all participate in SharePoint's permission model.
+The lower levels normally inherit permissions until inheritance is broken.
