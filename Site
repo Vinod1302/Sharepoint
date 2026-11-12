@@ -1,5 +1,13 @@
 We can create a site by going to Build-----Create Site ----We will get some templates need to select one. If we want
 any custom one we need to write code and execute using Powershell. one way there are other ways also.
+
+After Template selection we need to Give
+        1)Site Name
+        2)Site Description
+        3)Site Address
+        4)Group Email address
+
+
 1) What exactly is a SharePoint Site?
 A SharePoint Site is a workspace/container where a group of users can organize, store, share, secure, and collaborate on information.
 
