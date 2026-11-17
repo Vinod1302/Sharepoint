@@ -61,3 +61,8 @@ An individual item can also have unique permissions.
 So remember:
 Site, List, Document Library, Folder, File, and List Item can all participate in SharePoint's permission model.
 The lower levels normally inherit permissions until inheritance is broken.
+
+
+
+"""List settings----> Advance Settings -----> Make folders need to make it as Yes""""
+Then we can move records into a folder or segrate them in to folders by creating folders
